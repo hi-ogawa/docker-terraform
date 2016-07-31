@@ -1,1 +1,4 @@
 .env
+
+tf_conf/terraform.tfstate
+tf_conf/terraform.tfstate.backup
