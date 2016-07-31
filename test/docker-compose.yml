@@ -1,0 +1,9 @@
+version: "2"
+
+services:
+  terraform:
+    build: ../
+    working_dir: /tf_conf
+    env_file: .env
+    volumes:
+      - ./tf_conf:/tf_conf
